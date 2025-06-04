@@ -4,6 +4,7 @@ Aspects of the scene have been adjusted to utilize many of the Synesthesia Shade
 Audio Reactive elements include movement based on the audio input's time. Bass Hits will affect shadows and the purple glow.
 
 Scene controls allow the user to adjust parameters within the scene like glow, intensity, vibrance, camera parameters, and more.
+See the included `Scene Controls.png` for an overview of available controls.
 
 Demo video: https://www.youtube.com/watch?v=3HpyvFEv1yg
 
@@ -13,7 +14,7 @@ License: WTFPL, Author: Kevin McIntosh (Visional), found: https://github.com/kma
 
 ------------------------------------------------------------------------------
 
-An abstract, blobby-looking field - rendered in the style of hot, glowing glass. It was produced using cheap low-budget psuedoscience.
+An abstract, blobby-looking field - rendered in the style of hot, glowing glass. It was produced using cheap low-budget pseudoscience.
 
 The surface was constructed with a spherized sinusoidal function, of sorts. I like it, because 
 it's very cheap to produce, mildly reminiscent of noise and allows a camera to pass through it 
