@@ -1,5 +1,8 @@
 #define FAR 50. // Far plane, or maximum distance.
 
+// Additional camera speed control provided via the "Cam" slider.
+uniform float Cam;
+
 // float objID = 0.; // Object ID
 
 float accum; // Used to create the glow, by accumulating values in the raymarching function.
@@ -220,7 +223,8 @@ vec4 renderMainImage() {
 	
 	// Camera Setup.
 // 	float minSpeed = abs(syn_Intensity); // minimum speed threshold
-    float speed =  .75;
+    // Base speed multiplied by the "Cam" control for user adjustment.
+    float speed =  .75 * Cam;
     // max(minSpeed, abs((syn_Intensity) * abs(syn_BassPresence)));
     
     // speed = max(abs(speed*3), abs(minSpeed));
